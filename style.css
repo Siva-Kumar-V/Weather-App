@@ -5,29 +5,25 @@
     box-sizing: border-box;
 }
 
-/* body{
-    background-color: #222;
-} */
-
-/* body{
-    background: linear-gradient(to right, #bdc3c7, #2c3e50);
-
-} */
-
-/* body {
-    background: linear-gradient(to right, #d7d2cc, #304352);
-    font-family: sans-serif;
-} */
-
 body {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', sans-serif;
     height: 100vh;
-background: linear-gradient(-45deg, #f6d365, #fda085, #fceabb, #f8b500);
+    background: linear-gradient(-45deg, #f6d365, #fda085, #fceabb, #f8b500);
     background-size: 400% 400%;
     animation: gradientMove 15s ease infinite;
 }
+
+.weather-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 40px; /* Increased gap from top */
+  margin-bottom: 5px; /* Space between heading and card */
+  color: #3a2f73;
+}
+
 
 @keyframes gradientMove {
     0% {
@@ -47,7 +43,7 @@ background: linear-gradient(-45deg, #f6d365, #fda085, #fceabb, #f8b500);
     max-width: 470px;
     background: linear-gradient(135deg, #00feba, #5b548a);
     color: #fff;
-    margin: 100px auto 0;
+    margin: 50px auto 0;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
